@@ -1,0 +1,181 @@
+/* CSS Document for Scribbles Restraurant*/
+
+  @import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+
+  body {
+    background-color: rgb(11, 11, 11);
+    background-image:  url(../Scribbles/img/green-splatter-1.png) , url(../Scribbles/img/YellowSplat.png) , url(../Scribbles/img/PinkSplat.png) , url(../Scribbles/img/BLUESPLAT.png) , url(../Scribbles/img/PinkSplat.png), linear-gradient( 225deg, black,grey, black); 
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    font-family: 'Permanent Marker', cursive; color: rgb(255, 0, 115);
+    text-shadow: rgb(248, 242, 242) 3px 3px 3px;
+   }
+
+h1{
+  font-size: 600%;
+  float: left;
+}
+
+/*Reservation Form Styles*/
+
+.resnav a {
+display: flex;
+justify-content: right;
+}
+
+h2 .reservation {
+  text-align: center;
+  text-decoration: underline;
+}
+
+form {
+  display: flex;
+  justify-content: center;
+  align-items:center;
+  width: 100%;
+  height: 100%;
+  border: 1px solid white;
+}
+ 
+input [type="checkbox"] {
+  width:25%;
+}
+button {
+  font-family: 'Permanent Marker', cursive; color: rgb(255, 0, 115);
+}
+
+ /*unvisited link*/
+ a:link {
+  color: rgb(255, 0, 115);
+}
+/* visted link*/
+a:visited {
+  color:rgb(255, 0, 115);
+}
+
+/* mouse over link*/
+a:hover {
+  color:rgb(5, 32, 235);
+}
+
+/* selected link*/
+a:active {
+  color:rgb(5, 32, 235);
+}
+
+/* Menu Styles*/
+
+.menunav a{
+  display: flex;
+  justify-content: center;
+  align-items:center;
+  width: 100%;
+  height: 100%;
+ 
+ }
+
+p{
+  border-bottom: 1px solid white;
+}
+
+img{
+  max-width: 15%;
+  max-height: 15%;
+  border: 2px solid rgb(255, 0, 115) ;
+  border-radius: 100%;
+}
+
+.menulogo {
+  justify-content: left;
+}
+h3 {
+  text-decoration: underline;
+
+}
+
+ul.breakfast.lunch.dinner.dessert {
+text-align: center;
+ font-family: 'Permanent Marker', cursive; color: rgb(255, 0, 115);
+}
+
+.breakfast {
+display: flex;
+justify-content: center;
+align-items:center;
+width: 100%;
+height: 100%;
+border: 1px solid white;
+border-bottom: 2px solid white;
+background-color: rgba(0, 0, 0, .50);
+border-radius: 30%;
+}
+
+.lunch {
+  display: flex;
+  justify-content: center;
+  align-items:center;
+  width: 100%;
+  height: 100%;
+  border: 1px solid white;
+  border-bottom: 2px solid white;
+  background-color: rgba(0, 0, 0, .50);
+  border-radius: 30%;
+}
+
+.dinner{
+  display: flex;
+  justify-content: center;
+  align-items:center;
+  width: 100%;
+  height: 100%;
+  border: 1px solid white;
+  border-bottom: 2px solid white;
+  background-color: rgba(0, 0, 0, .50);
+  border-radius: 30%;
+}
+
+.dessert {
+  display: flex;
+  justify-content: center;
+  align-items:center;
+  width: 100%;
+  height: 100%;
+  border: 1px solid white;
+  background-color: rgba(0, 0, 0, .50);
+  border-radius: 30%;
+}
+/* About Us Page Styles*/
+
+p.intro {
+  font-family:  'Permanent Marker', cursive; color: rgb(56, 212, 240);;
+  display: flex;
+  justify-content: center;
+  align-items:center;
+  width: 100%;
+  height: 100%;
+  border: 1px solid white;
+  border-bottom: 2px solid white;
+  border-radius: 30%;
+
+}
+
+.topnav {
+  overflow: hidden;
+}
+
+.topnav a {
+  justify-content: center;
+  border-radius: 40%;
+  width:20%;
+}
+
+
+a {
+  display:inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
